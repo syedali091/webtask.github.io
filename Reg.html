@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form >
+        <label>First Name:</label><br>
+        <input type="text" id="firstName" name="firstName" required>
+        <br><br>
+        <label>Last Name:</label><br>
+        <input type="text" id="lastName" name="lastName" required>
+        <br><br>
+        <label>Email:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label>Male</label>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label>Female</label>
+        <br><br>
+        <label>Skills:</label>
+        <br>
+        <input type="checkbox" id="bca" name="skills" value="BCA">
+        <label>BCA</label>
+        <input type="checkbox" id="bba" name="skills" value="BBA">
+        <label>BBA</label>
+        <input type="checkbox" id="mca" name="skills" value="MCA">
+        <label>MCA</label>
+        <input type="checkbox" id="mba" name="skills" value="MBA">
+        <label>MBA</label>
+        <br><br>
+        <label for="text">address:</label><br>
+        <textarea id="text" name="text" rows="4" cols="50" required>
+        </textarea><br><br>
+        <label for="fileUpload"> File Upload:</label><br>
+        <input type="file" id="fileUpload" name="fileUpload"><br><br>
+
+        <button type="submit">Submit</button>
+        <br>
+        <a href="login.html">Go to Login</a>
+    </form>
+</body>
+</html>
